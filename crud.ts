@@ -1,6 +1,6 @@
 class BankAccount {
   private balance: number;
-
+ 
   constructor(initialBalance: number = 0) {
     this.balance = initialBalance;
   }
@@ -24,7 +24,9 @@ class BankAccount {
   }
 }
 
-// Example usage
+
+
+
 const account = new BankAccount(100);
 account.deposit(50);
 account.withdraw(30);
